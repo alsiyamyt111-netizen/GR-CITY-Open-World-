@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap');
+@import "tailwindcss";
+
+html, body, #root { height: 100%; margin: 0; background: #000; overscroll-behavior: none; touch-action: none; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent; }
+@keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(16px) } to { opacity: 1; transform: none } }
+@keyframes zoom { from { transform: scale(1.15) } to { transform: scale(1) } }
+::-webkit-scrollbar { width: 6px; height: 6px } ::-webkit-scrollbar-thumb { background: #ffd40055; border-radius: 3px }
